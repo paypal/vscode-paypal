@@ -28,6 +28,27 @@ It also enhances your development workflow by expanding the command palette with
 ![PayPal](resources/paypalQuickLinks.gif)
 <br> 
 
+* **PayPal AI Migration Assistant**: Our latest AI tool for developers leveraging GitHub’s Copilot Agent’s contextual understanding to upgrade your legacy integration code using NVP API or SOAP API. The assistant generates REST API equivalents in various programming languages and provides step-by-step migration instructions with inline comments.
+![PayPal](resources/paypal_ai_migration_asst.gif)
+<br>
+
+To use the PayPal AI Migration Assistant:
+1. Launch the PayPal extension and navigate to the **PayPal AI Assistant** panel.
+2. Select **Ask PayPal Assistant** to initiate the chat prompt.
+
+The AI assistant uses contextual awareness to generate relevant suggestions and improves over time with usage.
+Use the prompt, `Tell me about your capabilities`, for a summary of features and to upgrade your legacy integration.
+
+---
+
+## Installation Instructions
+
+1. Install [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) (required dependency).
+2. Open VS Code.
+3. Go to the Extensions view (`Ctrl+Shift+X` or `Cmd+Shift+X`).
+4. Search for “PayPal”.
+5. Click **Install** on the “PayPal” extension, or you can install from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=PayPal.vscode-paypal).
+
 ---
 ## Telemetry
 The PayPal VS Code Extension collects telemetry data to help us improve the extension. You can opt out of telemetry collection at any time by disabling telemetry in [VS Code settings](https://code.visualstudio.com/docs/getstarted/telemetry) . If telemetry is disabled, we will not collect any data.<br>
